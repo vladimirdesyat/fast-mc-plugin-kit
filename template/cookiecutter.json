@@ -1,0 +1,10 @@
+{
+  "plugin_name": "myplugin",
+  "author": "myname",
+  "main_class": "MyPlugin",
+  "version": "1.0.0",
+  "paper_api_version": "1.21.1-R0.1-SNAPSHOT",
+  "maven_api_version": "3.13.0",
+  "jdk_version": "25",
+  "description": "example"
+}

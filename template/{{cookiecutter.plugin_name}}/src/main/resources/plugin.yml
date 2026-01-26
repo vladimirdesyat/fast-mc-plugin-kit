@@ -1,0 +1,5 @@
+name: {{cookiecutter.plugin_name}}
+version: {{cookiecutter.version}}
+main: me.{{cookiecutter.author}}.{{cookiecutter.plugin_name}}.{{cookiecutter.main_class}}
+api-version: {{cookiecutter.paper_api_version}}
+description: {{cookiecutter.description}}

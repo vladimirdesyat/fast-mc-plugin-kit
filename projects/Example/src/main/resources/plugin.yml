@@ -1,0 +1,5 @@
+name: Example
+version: 1.0.0
+main: me.Author.Example.Example
+api-version: 1.21.1-R0.1-SNAPSHOT
+description: example
