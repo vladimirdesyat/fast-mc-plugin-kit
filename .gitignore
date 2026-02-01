@@ -1,2 +1,9 @@
-plugins/*
+# Ignore build artifacts but keep project structure examples
+projects/*/target/
+projects/*/.idea/
+projects/*/*.iml
+plugins/*.jar
+
+# Keep the folders themselves
+!projects/.gitkeep
 !plugins/.gitkeep

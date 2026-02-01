@@ -12,7 +12,15 @@ Minecraft server plugins.
 ## What it is not
 - Not a framework
 - Not an IDE replacement
-- Not an AI-powered generator (yet)
+- ~~Not an AI-powered generator (yet)~~ Now AI-Ready via MCP!
+
+## AI Capabilities (MCP Server)
+The toolkit now includes a Model Context Protocol (MCP) server. This allows AI models (like Claude, GPT-4, or local models in LM Studio) to:
+- Check your local environment for Java/Maven.
+- Scaffold new plugins using the included templates.
+- Write Java logic directly into your project files.
+- Compile the project into a JAR automatically.
+- To use it, point your MCP-compatible client to mcp/server.py.
 
 ## Requirements
 - Python 3.x
