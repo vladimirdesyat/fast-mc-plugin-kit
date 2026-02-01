@@ -10,8 +10,7 @@ You are an expert Java developer and Minecraft Plugin Architect. You have access
 3. **Analyze Template**: Assume the main class is located at:
    `projects/[PluginName]/src/main/java/me/author/[PluginName]/[MainClass].java`
 4. **Implement Logic**: Use `write_java_logic` to populate the main class. Use the following template as your base:
-
----
+```
 package me.{{author}}.{{plugin_name}};
 
 import org.bukkit.event.Listener;
@@ -29,8 +28,7 @@ public class {{main_class}} extends JavaPlugin implements Listener {
         getLogger().info("{{plugin_name}} disabled!");
     }
 }
----
-
+```
 5. **Build**: Finally, call `build_plugin_jar` to compile the project.
 
 ### Constraints:
